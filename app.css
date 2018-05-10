@@ -1,196 +1,479 @@
 .navbar{
-    background: #f97300;
 
-}
-.nav-link, .navber-brand{
-    color: f4f4f4;
-    cursor:pointer;
-}
-.nav-link{
-    margin-right:1em !important;
+    background:#F97300;
 
 
-}
-.nav-link:hover{
-    background:#f4f4f4;
-}
-.navber-collapse{
-    justify-content: flex-end;
-}
-.navber-toggler{
-    background: #fff !important;
-}
-.header{
-    background-image:url(../)!important;
-    background-attachment:fixed;
-    background-size :cover;
-    backgroung-position:center;
-}
-.overlay{
-    position: absolute;
-    min-height:100;
-    min-width: 100;
-    left:0;
-    top:0;
-    background:rgba(
-        0,0,0,72;
-    )
-}
-.description h3{
+
+  }
+
+  .nav-link , .navbar-brand{
+
+    color: #f4f4f4;
+
+    cursor: pointer;
+
+  }
+
+  .nav-link{
+
+    margin-right: 1em !important;
+
+  }
+
+  .nav-link:hover{
+
+    background: #f4f4f4;
+
     color: #f97300;
+
+
+
+  }
+
+  .navbar-collapse{
+
+    justify-content: flex-end;
+
+  }
+
+  .navbar-toggler{
+
+    background:#fff !important;
+
+  }
+
+
+
+  .header{
+
+    background-image: url('../images/ex1.jpg') !important;
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-position: center;
+
+  }
+
+
+
+  .overlay{
+
+    position: absolute;
+
+    min-height: 100%;
+
+    min-width: 100%;
+
+    left: 0;
+
+    top: 0;
+
+    background: rgba(0, 0, 0, 0.72);
+
+  }
+
+
+
+
+
+  .description{
+
+    position: absolute;
+
+    top: 30%;
+
+    margin: auto;
+
+    padding: 2em;
+
+
+
+  }
+
+  .description h3{
+
+    color:#F97300 ;
+
     text-align: left;
 
-}
-.description p{
-    color:#f1f1f1;
-    font-size:20px;
-    width:50%;
-    line-height:1.5;
 
-}
-.description button{
-    border:1px solid#f97300;
-    background:#f97300;
+
+  }
+
+  .description p{
+
+    color: #f1f1f1;
+
+    font-size: 20px;
+
+    width: 50%;
+
+    line-height: 1.5;
+
+  }
+
+  .description button{
+
+    border:1px  solid #F97300;
+
+    background:#F97300;
+
     color:#fff;
-}
-.h{
+
+  }
+
+
+
+
+
+  .h{
+
     margin-top: 5em;
-}
 
-.about{
-    margin:4em 0;
-    padding:3em;
-    position: relative;
 
-}
-.h1{
-    color: #f97300;
+
+  }
+
+  .about{
+
+      margin: 4em 0;
+
+      padding: 3em;
+
+      position: relative;
+
+  }
+
+
+
+  h1{
+
+    color:#F97300 !important;
+
     padding-top: 3em;
+
     text-align: center;
-}
-a>button{
+
+  }
+
+
+
+  a>button{
+
     position: absolute;
-    float: right;
-}
-.about img {
-    height: 10%;
-    width:100%;
-    border-radius:50%;
-}
-.about span{
-    display:
+
+      float: right;
+
+  }
+
+  .about img{
+
+    height: 100%;
+
+    width: 100%;
+
+    border-radius: 50%
+
+  }
+
+  .about span{
+
+    display: block;
+
+    color: #888;
+
+    position: absolute;
+
+    left: 11em;
+
+  }
+
+  .about .desc{
+
+    padding: 2em;
+
+    border-left:4px solid #10828C;
+
+  }
+
+  .about .desc h3{
+
+    color: #10828C;
+
+    margin-top: 4em;
+
+
+
+  }
+
+  .about .desc p{
+
+    line-height:2;
+
+    color:#888;
+
+  }
 
 
 
 
 
+  /*Portfolio*/
 
+  .portfolio{
 
+    margin: 4em 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.blog{
-    margin:4em 0;
     position: relative;
-}
-.blog h1{
-    color:#f97300;
+
+  }
+
+  .portfolio h1{
+
+    color:#F97300;
+
     margin: 2em;
 
-}
-.blog .card:hover{
+  }
+
+  .portfolio img{
+
+    height: 15rem;
+
+    width: 100%;
+
+    margin: 1em;
+
+
+
+  }
+
+
+
+  .blog{
+
+    margin: 4em 0;
+
+    position: relative;
+
+  }
+
+  .blog h1{
+
+    color:#F97300;
+
+    margin: 2em;
+
+  }
+
+  .blog .card{
+
+    box-shadow: 0 0 20px #ccc;
+
+  }
+
+  .blog .card:hover{
+
     box-shadow: 0 0 5px #7a7a7a;
+
     transition: 0.5s;
 
-}
-.blog .card img{
+  }
+
+  .blog .card img{
+
     width: 100%;
+
     height: 12em;
 
-}
+  }
 
-.blog.card:title{
-color
-#f97300;
-}
+  .blog .card-title{
 
-.blog .card.body{
-    padding:1em;
+    color:#F97300;
 
-}
-.team {
-margin: 4em 0;
-position: relative;
-}
-.team h1{
-    color:#f97300;
-    margin:2em;
-}
-.team item{
+
+
+  }
+
+  .blog .card-body{
+
+    padding: 1em;
+
+  }
+
+
+
+
+
+  .team{
+
+    margin: 4em 0;
+
     position: relative;
-}
-.team .des{
-    background: #f97300;
+
+  }
+
+  .team h1{
+
+    color:#F97300;
+
+    margin: 2em;
+
+  }
+
+  .team .item{
+
+    position: relative;
+
+  }
+
+  .team .des{
+
+    background: #F97300;
+
     color: #fff;
+
     text-align: center;
-    border: bottom-left-radius 93%;
-    transition:3s ease-in-out;
+
+    border-bottom-left-radius: 93%;
+
+    transition:.3s ease-in-out;
 
 
 
-}
+  }
 
-.team .item:hover .des{
+
+
+  .team .item:hover .des{
+
     height: 100%;
-    background: #f97300;
-    position: relative;
-    width:89%;
-    padding:5em;
+
+    background:#f973007d;
+
+    position: absolute;
+
+    width: 89%;
+
+    padding: 5em;
+
     top: 0;
-    border-bottom-left-radius:0;
 
-}
+    border-bottom-left-radius: 0;
 
-.contact-form{
-    margin: 6em;
-
-    position:relative;
-
-}
-.contact-form h1{
-    padding: 2em 1px;
-
-
-}
+  }
 
 
 
+
+
+  .contact-form{
+
+    margin: 6em 0;
+
+    position: relative;
+
+  }
+
+
+
+  .contact-form h1{
+
+    padding:2em 1px;
+
+    color: #F97300;
+
+  }
+
+  .contact-form .right{
+
+    max-width: 600px;
+
+  }
+
+  .contact-form .right .btn-secondary{
+
+    background:  #F97300;
+
+    color: #fff;
+
+    border:0;
+
+  }
+
+  .contact-form .right .form-control::placeholder{
+
+    color: #888;
+
+    font-size: 16px;
+
+  }
+
+Shalom Mathew3:39 PM
+joined #lfinternship2018.
+Fay Vor3:55 PM
+late comer @Shalom Mathew welcome
+peoray9:51 PM
+https://medium.com/@peoray/my-first-day-at-learnfactory-f63cfd802eaf
+MediumMedium
+My First Day At LearnFactory – Emmanuel Raymond – Medium
+A journey to becoming a world-class developer
+Reading time
+3 min read
+May 3rd(123 kB)
+https://cdn-images-1.medium.com/max/1200/1*Zrx12AYHozVGAPccW2TyqA.jpeg
+Obidi Isaac2:13 PM
+added this HTML snippet: #portfolio section 
+
+<!-- portfolio -->
+
+<div class="portfolio" id="portfolio">
+
+<h1 class="text-center">Portfolio</h1>
+
+<div class="container">
+
+<div class="row">
+
+Obidi Isaac2:32 PM
+added this HTML snippet: #Posts 
+
+<!-- Posts section -->
+
+<div class="blog" id="blog">
+
+<div class="container">
+
+<h1 class="text-center">Blog</h1>
+
+<div class="row">
+
+Obidi Isaac2:55 PM
+added this HTML snippet: #Team 
+
+<!-- Team section -->
+
+<div class="team" id="team">
+
+<div class="container">
+
+<h1 class="text-center">Our Team</h1>
+
+<div class="row">
+
+Obidi Isaac3:04 PM
+added this Handlebars snippet: #FORM 
+
+<!-- Contact form -->
+
+<div class="contact-form" >
+
+<div class="container" id="contact">
+
+<form>
+
+    <div class="row">
 
